@@ -1,0 +1,32 @@
+{
+    "name": "nahid/envato-php",
+    "description": "Envato PHP is a PHP client for envato API",
+    "keywords": ["envato", "php", "api", "envato-api", "envato-php-api", "laravel-envato-api", "laravel"],
+    "type": "library",
+    "license": "CC(1.0)",
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.2",
+        "duncan3dc/sessions": "^1.0"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^3.1",
+        "phpunit/phpunit": "^4.8 || ^5.0"
+    },
+    "authors": [
+        {
+            "name": "Nahid Bin Azhar",
+            "email": "nahid.dns@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Nahid\\EnvatoPHP\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
